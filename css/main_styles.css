@@ -1,0 +1,55 @@
+.main__header{
+    display: flex;
+
+    justify-content:flex-start;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 22px;
+
+    line-height: 34px;
+
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.main__catalog{
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.main__catalog__card{
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    color: #1D1D1D;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__catalog__card__name{
+    font-size: 16px;
+}
+
+.main__catalog__card__type{
+    font-size: 14px;
+
+    color: #626262;
+}
+
+.main__catalog__card__delivery__time{
+    font-size: 13px;
+}
